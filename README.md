@@ -36,8 +36,8 @@ Bilgisayarınızda Ollama'nın kurulu olduğundan ve arka planda çalıştığı
   🚪 Çıkış yapmak için: 'çık', 'cik', 'exit' veya 'quit' yazın.
 
 Siz > yapay zeka dünyasındaki son gelişmeler nelerdir?
-  🔧 Araç Çalıştırılıyor: get_donanimhaber_news({'keyword': 'Yapay Zeka'})
-  📥 Araçtan Gelen Veri: 📰 DonanımHaber Son Gelişmeler (Arama: 'Yapay Zeka'):
+  - 🔧 Araç Çalıştırılıyor: get_donanimhaber_news({'keyword': 'Yapay Zeka'})
+  - 📥 Araçtan Gelen Veri: 📰 DonanımHaber Son Gelişmeler (Arama: 'Yapay Zeka'):
 
 1. 📌 Başlık: AI yapımı Türk dizisi Surlar, Amazon Prime Video'da yayınlanarak bir ilki gerçekleştidi
    📝 Özet: Tamamı yapay zekâ ile yapılan Türk dizisi Surlar (Castle Walls), bugün Amazon Prime Video'da yayınlanacak. Dizi, büyük platformlarından birinde yayılanan ilk AI yapımı olarak dikkat çekiyor.
@@ -64,8 +64,8 @@ Siz > yapay zeka dünyasındaki son gelişmeler nelerdir?
 
 ### 2. Örnek
 Siz > DonanımHaber'de ekran kartlarıyla ilgili yeni bir gelişme var mı? Şu an 500 Dolar kaç TL yapıyor? Bitcoin'in son 30 günlük durumu nedir? 
-  🔧 Araç Çalıştırılıyor: get_donanimhaber_news({'keyword': 'ekran kartı'})
-  📥 Araçtan Gelen Veri: 📰 DonanımHaber Son Gelişmeler (Arama: 'ekran kartı'):
+  - 🔧 Araç Çalıştırılıyor: get_donanimhaber_news({'keyword': 'ekran kartı'})
+  - 📥 Araçtan Gelen Veri: 📰 DonanımHaber Son Gelişmeler (Arama: 'ekran kartı'):
 
 1. 📌 Başlık: Samsung HBM4’te yüzde 80 verimliliğe ulaştı: SK Hynix’e rakip oluyor
    📝 Özet: Samsung’un HBM4 üretiminde verimlilik oranını yüzde 80’e taşıdığı bildirildi. Şirket, HBM pazarında SK Hynix’e rakip olmak için HBM4E çalışmalarını da sürdürüyor.
@@ -88,13 +88,14 @@ Siz > DonanımHaber'de ekran kartlarıyla ilgili yeni bir gelişme var mı? Şu 
    🔗 Link: https://www.donanimhaber.com/geforce-rtx-2080-ti-yapay-zek-icin-geliyor--209057
 --------------------------------------------------
 
-  🔧 Araç Çalıştırılıyor: get_exchange_rate({'to_currency': 'TRY', 'amount': 500, 'from_currency': 'USD'})
-  📥 Araçtan Gelen Veri: 1 USD = 47.775 TRY (2026-08-13 tarihli kur). 500 USD = 23887.5 TRY
-  🔧 Araç Çalıştırılıyor: get_crypto_performance({'coin_id': 'bitcoin'})
+  - 🔧 Araç Çalıştırılıyor: get_exchange_rate({'to_currency': 'TRY', 'amount': 500, 'from_currency': 'USD'})
+ -  📥 Araçtan Gelen Veri: 1 USD = 47.775 TRY (2026-08-13 tarihli kur). 500 USD = 23887.5 TRY
+  - 🔧 Araç Çalıştırılıyor: get_crypto_performance({'coin_id': 'bitcoin'})
+  
   📥 Araçtan Gelen Veri: Varlık: Bitcoin (BTC)
-Güncel Fiyat: $63443
-Son 24 Saatlik Değişim: %0.10
-Son 30 Günlük Kazanç/Kayıp: %-2.20
+      Güncel Fiyat: $63443
+      Son 24 Saatlik Değişim: %0.10
+      Son 30 Günlük Kazanç/Kayıp: %-2.20
 
 Asistan > Bu bilgiler, yatırım tavsiyesi vermemek için tasarlanmıştır. Yatırım kararlarınızı kendi risk toleransınıza ve hedeflerinize göre alabilirsiniz.
 
